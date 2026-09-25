@@ -39,6 +39,25 @@ The initial product goal is a scheduled job-finding system: maintain a list of t
 
 This is the **business goal, not a fixed technical design**. The orchestrator and specialists must determine the appropriate architecture, integrations, matching approach, scheduler, persistence, UI, and use of available capabilities.
 
+## UI / UX quality
+
+The product should have a **polished, professional, intuitive UI/UX suitable for regular daily use**. UX quality is a first-class product requirement, not something to optimize only after functionality is complete.
+
+The UI/UX should:
+- Make the primary user workflows immediately clear.
+- Present information with strong visual hierarchy and sensible information density.
+- Be easy to scan and navigate, especially when reviewing many job matches.
+- Provide clear states for loading, empty results, errors, new results, and previously seen results.
+- Be responsive and usable across relevant screen sizes.
+- Feel cohesive and production-quality rather than like an internal prototype.
+- Minimize unnecessary interaction and cognitive load.
+- Use appropriate interaction patterns, accessibility practices, and useful user feedback.
+- Preserve consistency across screens and components.
+
+These are **quality goals, not implementation instructions**. Do not prescribe a framework, component library, visual style, navigation pattern, color palette, or page structure unless the requirements or design work establish a reason for one.
+
+The UX/UI specialists and architect should determine the appropriate design patterns, visual language, component structure, and implementation technology based on the product requirements. The orchestrator should ensure that UX quality is considered before implementation and that the final UI is evaluated against these goals.
+
 ## Engineering biases
 
 - Prefer simple, solo-maintainable architecture.
