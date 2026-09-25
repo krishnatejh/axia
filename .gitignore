@@ -1,0 +1,17 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Stale backups
+*.bak
+*.bak.*
+
+# Dependencies
+node_modules/
+.opencode/node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
